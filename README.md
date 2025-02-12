@@ -34,8 +34,6 @@ mi-proyecto/
 | Método | Endpoint      | Descripción                  |
 | ------ | ------------- | ---------------------------- |
 | GET    | `/api/v1/` | Verifica información de la API |
-| POST   | `/api/v1/auth`   | Autenticación de usuario Administradores    |
-| GET    | `/api/v1/admin`  | Obtener lista de usuarios Administradores   |
 
 📄 Documentación completa disponible en **Swagger** en `http://localhost:4040/docs`
 
