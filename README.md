@@ -50,10 +50,17 @@ npm run dev
 
 ## 🛠️ Tecnologías Utilizadas  
 
-- Node.js + Express  
-- TypeScript  
-- Nodemon para recarga automática  
-- Configuración con Dotenv  
+- **Node.js** + **Express** 🟢  
+- **TypeScript** ⚡  
+- **Dotenv** para manejo de variables de entorno ⚙️  
+- **Env-var** para validación de variables de entorno 🔍  
+- **Nodemon** para recarga automática 🔄  
+- **Rimraf** para limpieza de archivos temporales 🗑️  
+- **TS-Node** para ejecutar TypeScript sin compilación previa 🚀  
+- **JWT (JSON Web Tokens)** para autenticación 🔐 *(Pendiente de agregar en dependencias)*  
+- **Swagger** para documentación 📄 *(Pendiente de agregar en dependencias)*  
+- **MongoDB / SQL Server / PostgreSQL / MySQL** 🗄️ *(Pendiente de agregar en dependencias si aplica)*  
+ 
 
 ## 📜 Licencia  
 
