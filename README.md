@@ -1,105 +1,64 @@
-APIByteon 🚀
+# 🚀 Plantilla Base para Proyectos Node.js + TypeScript 🚀
 
-APIByteon es una potente y flexible plataforma para el desarrollo de APIs en Node.js, diseñada para ofrecer escalabilidad, seguridad y facilidad de integración. Con una arquitectura modular y configuraciones optimizadas, permite a los desarrolladores desplegar rápidamente servicios backend eficientes y robustos.
+Esta plantilla proporciona una estructura inicial para proyectos en Node.js con TypeScript, facilitando un desarrollo modular y escalable.  
 
-✨ Características
+## 📂 Estructura del Proyecto  
 
-✅ Arquitectura Modular - Código organizado y fácil de mantener.✅ Soporte para TypeScript - Desarrollo con tipado fuerte.✅ Configuración con Dotenv - Manejo seguro de variables de entorno.✅ Autenticación y Seguridad - Implementación de JWT y middleware de protección.✅ Soporte para Base de Datos - Compatible con MongoDB, SQL Server, PostgreSQL y MySQL.✅ Documentación con Swagger - API bien documentada para facilitar su uso.
+```
+mi-proyecto/
+├── src/
+│   ├── config/          # Configuraciones y variables de entorno
+│   │   ├── envs.ts      # Variables de entorno
+│   │   └── index.ts     # Configuración inicial
+│   ├── presentation/    # Capa de presentación (Rutas y controladores)
+│   │   ├── api/
+│   │   │   ├── api.controller.ts  # Controladores de la API
+│   │   │   ├── api.routes.ts      # Rutas específicas de la API
+│   │   ├── routes.ts   # Rutas generales
+│   │   ├── server.ts   # Servidor principal
+│   │   └── app.ts      # Configuración de la aplicación
+├── .env                # Variables de entorno
+├── .env.example        # Archivo de ejemplo para variables de entorno
+├── .gitignore          # Archivos y carpetas ignoradas por Git
+├── nodemon.json        # Configuración de Nodemon para recarga automática
+├── package.json        # Dependencias y configuración del proyecto
+├── package-lock.json   # Registro de dependencias
+├── tsconfig.json       # Configuración de TypeScript
+└── README.md           # Documentación del proyecto
+```
 
-🚀 Instalación
+## 🚀 Instalación  
 
-1️⃣ Clonar el repositorio:
+### 1️⃣ Clonar el repositorio  
+```sh
+git clone https://github.com/usuario/mi-plantilla.git
+cd mi-plantilla
+```
 
- git clone https://github.com/usuario/APIByteon.git
- cd APIByteon
+### 2️⃣ Instalar dependencias  
+```sh
+npm install
+```
 
-2️⃣ Instalar dependencias:
+### 3️⃣ Configurar variables de entorno  
+Renombrar `.env.example` a `.env` y ajustar las variables necesarias.  
 
- npm install
-
-3️⃣ Configurar variables de entorno:Renombrar el archivo .env.example a .env y ajustar las variables necesarias.
-
-4️⃣ Iniciar el servidor:
-
- npm run dev
-
-🛠️ Uso
-
-🔹 Ejecutar en modo desarrollo
-
+### 4️⃣ Iniciar el servidor en desarrollo  
+```sh
 npm run dev
+```
 
-🔹 Ejecutar en producción
+## 🛠️ Tecnologías Utilizadas  
 
-npm start
+- Node.js + Express  
+- TypeScript  
+- Nodemon para recarga automática  
+- Configuración con Dotenv  
 
-🔹 Ejecutar pruebas
+## 📜 Licencia  
 
-npm test
+Este proyecto está bajo la licencia MIT, disponible para cualquier uso.  
 
-📡 Endpoints Principales
+## 👤 Autor  
 
-Método
-
-Endpoint
-
-Descripción
-
-GET
-
-/api/v1/
-
-Verifica información de la API
-
-POST
-
-/api/v1/auth
-
-Autenticación de usuario Administradores
-
-GET
-
-/api/v1/admin
-
-Obtener lista de usuarios Administradores
-
-📄 Documentación completa disponible en Swagger en http://localhost:4040/docs
-
-🛠️ Tecnologías Utilizadas
-
-Node.js + Express 🟢
-
-TypeScript ⚡
-
-MongoDB / SQL Server / PostgreSQL / MySQL 🗄️
-
-JWT para autenticación 🔐
-
-Swagger para documentación 📄
-
-Dotenv para configuración ⚙️
-
-🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Para colaborar:
-
-Haz un fork del repositorio 📌
-
-Crea una rama con tu feature (git checkout -b feature-nueva)
-
-Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva feature')
-
-Envía un PR 🚀
-
-📜 Licencia
-
-Este proyecto está bajo la licencia MIT.
-
-💡 Desarrollado con pasión por el equipo de APIByteon. 💙
-
-👤 Autor
-
-Este proyecto fue desarrollado por Jair Molina, apasionado por la tecnología y el desarrollo de software.
-
-📌 GitHub: Jmolina24
-
+📌 **GitHub:** [Jmolina24](https://github.com/Jmolina24)  
